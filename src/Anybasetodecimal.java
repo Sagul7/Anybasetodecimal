@@ -29,3 +29,19 @@ public class Anybasetodecimal {
         return base * checkPow(base,x-1);
     }
 }
+/*
+You are given a number A. You are also given a base B. A is a number on base B.
+You are required to convert the number A into its corresponding value in decimal number system.
+Input
+A = 1010
+B = 2
+Output
+10
+Input
+A = 22 
+B = 3
+Output
+8
+
+1010....0*pow(2,0),1*pow(2,1)
+    */
